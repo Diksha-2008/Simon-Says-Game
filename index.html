@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="outerBox">
+        <h2>Simon Says Game</h2>
+        <h3>(Press any key to start)</h3>
+        <h4 style="font-size:24px; color:rgb(11, 6, 6); text-shadow:0px 0px 10px rgb(113, 33, 33)"> Score: </h4>
+        <!--Creating four box in the playground-->
+        <div class="playground">
+            <div class="box" id="box1" style="background:linear-gradient(#9E1916,#CD1C18,#E3231F,#F5423E,#FD6F6C)"></div>
+            <div class="box" id="box2" style="background:linear-gradient(#1C791D,#32CD32,#54D454,#8DE88D)"></div>
+            <div class="box" id="box3" style="background:linear-gradient(#0047ab, #004DD7 , #0076FF , #35C1FF , #AEE6FF )"></div>
+            <div class="box" id="box4" style="background:linear-gradient(#EDB505,#FDD017,#FFE345,#FFF289)"></div>
+        </div>
+        <!--Help-->
+        <div class="button">
+            <button class="help">Help</button>
+            <button class="reset">Reset</button>
+        </div>
+        
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
